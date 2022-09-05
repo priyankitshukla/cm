@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SmartEDU - Education Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">FOR STUDENTS</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="course-grid-2.html">Class 8-9 </a>
+								<a class="dropdown-item" href="course-grid-3.html">Class 10-12 </a>
+								<a class="dropdown-item" href="course-grid-4.html">Graduates </a>
+							</div>
+                        </li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">TEAM </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="course-grid-2.html">Team </a>
+								<a class="dropdown-item" href="course-grid-3.html">Apply for Job </a>
+								<!-- <a class="dropdown-item" href="course-grid-4.html">Course Grid 4 </a> -->
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Resources </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Actuarial Sciences </a>
+								<a class="dropdown-item" href="blog-single.html">Animation & Graphics </a>
+                                <a class="dropdown-item" href="blog.html">Applied Arts </a>
+								<a class="dropdown-item" href="blog-single.html">Architecture </a>
+                                <a class="dropdown-item" href="blog.html">Aviation </a>
+								<a class="dropdown-item" href="blog-single.html">Cabin Crew </a>
+                                <a class="dropdown-item" href="blog.html">Civil Services </a>
+								<a class="dropdown-item" href="blog-single.html">Commerce & Accounts </a>
+
+
+                                <a class="dropdown-item" href="blog.html">Computer Application & IT </a>
+								<a class="dropdown-item" href="blog-single.html">Defense </a>
+                                <a class="dropdown-item" href="blog.html">Design </a>
+								<a class="dropdown-item" href="blog-single.html">Distribution & Logistics </a>
+                                <a class="dropdown-item" href="blog.html">Economics </a>
+								<a class="dropdown-item" href="blog-single.html">Education & Training</a>
+                                <a class="dropdown-item" href="blog.html">Entrepreneurship </a>
+								<a class="dropdown-item" href="blog-single.html">Ethical Hacking</a>
+
+                                <a class="dropdown-item" href="blog.html">Finance & Banking </a>
+								<a class="dropdown-item" href="blog-single.html">Food & Agriculture </a>
+                                <a class="dropdown-item" href="blog.html">Hotel Management </a>
+								<a class="dropdown-item" href="blog-single.html">Law </a>
+                                <a class="dropdown-item" href="blog.html">Life Science & Environment </a>
+								<a class="dropdown-item" href="blog-single.html">Management</a>
+                                <a class="dropdown-item" href="blog.html">Marketing & Advertising </a>
+								<a class="dropdown-item" href="blog-single.html">Maths & Statistics</a>
+
+                                <a class="dropdown-item" href="blog.html">Media & Communication </a>
+								<a class="dropdown-item" href="blog-single.html">Medicine </a>
+                                <a class="dropdown-item" href="blog.html">Merchant Navy </a>
+								<a class="dropdown-item" href="blog-single.html">Nutrition & Fitness </a>
+                                <a class="dropdown-item" href="blog.html">Performing Arts </a>
+								<a class="dropdown-item" href="blog-single.html">Physical Science</a>
+                                <a class="dropdown-item" href="blog.html">Sales </a>
+								<a class="dropdown-item" href="blog-single.html">Social Sciences & Humanities</a>
+                                <a class="dropdown-item" href="blog-single.html">Social Services</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact US</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Live Your Best Life<span class="m_1">Career Counselling for Class 10, 11, and 12 students</span></h1>
+			<a href="#" class="hover-btn-new"><span>Enquire Now</span></a>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#" class="hover-btn-new"><span>Read More</span></a>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <p class="lead"><h1>How We Help</h1>
+					</p>
+                </div>
+				<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+						<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div id="home" class="first-section" style="background-image:url('images/10-12_pic.PNG');">
+								<div class="dtab">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 col-sm-12 text-right">
+												<div class="big-tagline">
+													<h2><strong>Your Source for  </strong>Personal Growth</h2>
+													<p class="lead">Stream Selection and Career Planning. </p>
+														<a href="#" class="hover-btn-new"><span>Enquire Now</span></a>
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+														<a href="#" class="hover-btn-new"><span>Read More</span></a>
+												</div>
+											</div>
+										</div><!-- end row -->            
+									</div><!-- end container -->
+								</div>
+							</div><!-- end section -->
+						</div>
+						<div class="carousel-item">
+							<div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+								<div class="dtab">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-12 col-sm-12 text-left">
+												<div class="big-tagline">
+													<h2><strong>Your Source for  </strong>Personal Growth</h2>
+													<p class="lead">Stream Selection and Career Planning. </p>
+														<a href="#" class="hover-btn-new"><span>Enquire Now</span></a>
+														&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+														<a href="#" class="hover-btn-new"><span>Read More</span></a>
+												</div>
+											</div>
+										</div><!-- end row -->            
+									</div><!-- end container -->
+								</div>
+							</div><!-- end section -->
+						</div>
+						
+						</div>
+						<!-- Left Control -->
+						<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+							<span class="fa fa-angle-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+			
+						<!-- Right Control -->
+						<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+							<span class="fa fa-angle-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				
+				
+            </div><!-- end title -->
+
+            <hr class="invis"> 
+
+          
+    <div id="plan" class="section lb">
+        <div class="container">
+
+            <div class="section-title text-center">
+                <h3>Career Selection & Planning
+				</h3>
+				
+                <!-- <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> -->
+            </div><!-- end title -->
+			
+
+           
+
+            <hr class="invis">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-content">
+                        <div class="tab-pane active fade show" id="tab1">
+                            <div class="row text-center">
+                                <div class="col-md-6">
+									
+                                    <div class="pricing-table pricing-table-highlighted">
+                                        <div class="pricing-table-header grd1">
+                                            <h2>Test Category</h2>
+                                            <h2>C</h2>
+                                        </div>
+                                        <div class="pricing-table-space"></div>
+                                        <div class="pricing-table-features">
+                                            <p><i class="fa fa-calendar-times-o"></i> <strong>Duration</strong> 1hr</strong></p>
+                                            <p><i class="fa fa-money"></i> <strong>Price</strong> 5000</p>
+                                            <p><i class="fa-location-arrow"></i> <strong>Location</strong> Taj Nagri</p>
+                                            <p><i class="fa fa-link"></i> <a href="">Full Detail</a>    </p>
+                                        </div>
+                                        <div class="pricing-table-sign-up">
+                                            <a href="#" class="hover-btn-new orange"><span>Book Now</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="col-md-6">
+                                    <div class="pricing-table pricing-table-highlighted">
+										<div class="testi-meta">
+											<img src="images/test_c.png" alt="" class="img-fluid">
+										</div>
+                                    </div>
+                                </div>
+                            </div><!-- end row -->
+							<div class="row text-center">
+                               
+                                
+                            </div><!-- end row -->
+                        </div><!-- end pane -->
+                    </div><!-- end content -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">CAREERMAPPER</a> </p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
