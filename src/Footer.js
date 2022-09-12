@@ -4,7 +4,7 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-        <div className="copyrights">
+        <div className="copyrights  fixed-bottom">
           <div className="container">
             <div className="footer-distributed">
               <div className="footer-center">

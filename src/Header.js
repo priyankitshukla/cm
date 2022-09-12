@@ -1,6 +1,31 @@
+import Popup from "reactjs-popup";
 import React from "react";
+import { BrowserRouter, Link ,Outlet} from "react-router-dom";
+
+import "./css/bootstrap.min.css";
+import "./css/style.css";
+import "./css/versions.css";
+import "./css/responsive.css";
+
+
+const Modal = () => (
+  <Popup
+    trigger={
+      <a className="nav-link" href="#">
+        LOGIN
+      </a>
+    }
+    modal
+  >
+    <span style={{ background: "white" }}> Login/Register </span>
+  </Popup>
+);
+
 
 class Header extends React.Component {
+  componentDidMount(props){
+    console.log('header page.');
+  }
   render() {
     return (
       <>
@@ -26,9 +51,9 @@ class Header extends React.Component {
               <div className="collapse navbar-collapse" id="navbars-host">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item active">
-                    <a className="nav-link" href="index.html">
+                    <Link to="/" className="nav-link dropdown-toggle">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item dropdown">
                     <a
@@ -40,12 +65,10 @@ class Header extends React.Component {
                       FOR STUDENTS
                     </a>
                     <div className="dropdown-menu" aria-labelledby="dropdown-a">
-                      <a className="dropdown-item" href="course-grid-2.html">
-                        className 8-9{" "}
-                      </a>
-                      <a className="dropdown-item" href="course-grid-3.html">
-                        className 10-12{" "}
-                      </a>
+                      <Link to="/classeightnine">Class 8-9 </Link>
+
+                      <Link to="/classeightnine">Class 10-12 </Link>
+
                       <a className="dropdown-item" href="course-grid-4.html">
                         Graduates{" "}
                       </a>
@@ -199,21 +222,25 @@ class Header extends React.Component {
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
                   <li>
-                    <a
+                    {
+                      /* <a
                       className="hover-btn-new log orange"
                       href="#"
                       data-toggle="modal"
                       data-target="#login"
                     >
                       <span>Login</span>
-                    </a>
+                    </a> */
+                      <Modal></Modal>
+                    }
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
         </header>
-      </>
+        <Outlet></Outlet>
+        </>
     );
   }
 }
