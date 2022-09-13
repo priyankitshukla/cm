@@ -3,34 +3,35 @@ import "../css/bootstrap.min.css";
 import "../css/style.css";
 import "../css/versions.css";
 import "../css/responsive.css";
-import FAQ from "./FAQ";
-import WhyCareerMapper from "./WhyCareerMapper";
 
-class ClassEightNine extends React.Component {
-  componentDidUpdate(props) {
-    console.log("class eight nine");
-  }
+import WhyCareerMapper from "./WhyCareerMapper";
+import FAQ from "./FAQ";
+class ClassTenTweleve extends React.Component {
   render() {
     return (
-      <div id="classeightnine">
-        <div className="all-title-box">
-          <div className="container text-center">
-            <h1>
-              Moving You Forward
-              <span className="m_1">
-                Stream Selection and Planning for Class 8-9.
-              </span>
-            </h1>
-            <a href="#" className="hover-btn-new">
-              <span>Enquire Now</span>
-            </a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="#" className="hover-btn-new">
-              <span>Read More</span>
-            </a>
+      <>
+        <div id="classeightnine">
+          <div className="all-title-box1">
+            <div className="container text-center">
+              <h1>
+                Moving You Forward
+                <span className="m_1">
+                  Stream Selection and Planning for Class 8-9.
+                </span>
+              </h1>
+              <a href="#" className="hover-btn-new">
+                <span>Enquire Now</span>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="#" className="hover-btn-new">
+                <span>Read More</span>
+              </a>
+            </div>
           </div>
         </div>
 
+
+        
         <div id="overviews" className="section wb" style={{padding:0}}>
           <div className="container">
             <div className="section-title row text-center">
@@ -56,7 +57,7 @@ class ClassEightNine extends React.Component {
                             <div className="pricing-table">
                               <div className="pricing-table-header grd1">
                                 <h2>Test Category</h2>
-                                <h2>A</h2>
+                                <h2>B</h2>
                               </div>
                               <div className="pricing-table-space"></div>
                               <div className="pricing-table-features">
@@ -88,7 +89,7 @@ class ClassEightNine extends React.Component {
                             <div className="pricing-table pricing-table-highlighted">
                               <div className="testi-meta">
                                 <img
-                                  src={require("../images/test_side_image.png")}
+                                  src={require("../images/test_cat_b.jpeg")}
                                   alt=""
                                   className="img-fluid"
                                 ></img>
@@ -109,12 +110,12 @@ class ClassEightNine extends React.Component {
         <div className="section-title text-center">
           <h2>Frequently asked questions</h2>
         </div>
+        
 
         <FAQ></FAQ>
-
-      </div>
+      </>
     );
   }
 }
 
-export default ClassEightNine;
+export default ClassTenTweleve;

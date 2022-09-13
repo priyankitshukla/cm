@@ -1,5 +1,5 @@
 const NoPage = () => {
-    return <h1>404</h1>;
-  };
-  
-  export default NoPage;
+  return <img src={require("../images/404.png")}></img>;
+};
+
+export default NoPage;
