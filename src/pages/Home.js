@@ -3,10 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Testimonial from "../Testimonial";
 import "../App.css";
-import "../css/bootstrap.min.css";
-import "../css/style.css";
-import "../css/versions.css";
-import "../css/responsive.css";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import "react-tabs/style/react-tabs.css";
@@ -16,8 +13,8 @@ import LoadingScreen from 'react-loading-screen';
 class Home extends React.Component {
     render(){
         return(
-            <>
-             <Carousel
+          <div class="container">
+          <Carousel
           showThumbs={false}
           autoPlay={true}
           infiniteLoop={true}
@@ -367,7 +364,7 @@ class Home extends React.Component {
           </div>
         </div>
         <Testimonial></Testimonial>
-            </>
+            </div>
         );
     }
 }

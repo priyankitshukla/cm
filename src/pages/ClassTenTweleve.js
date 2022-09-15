@@ -1,15 +1,11 @@
 import React from "react";
-import "../css/bootstrap.min.css";
-import "../css/style.css";
-import "../css/versions.css";
-import "../css/responsive.css";
 
 import WhyCareerMapper from "./WhyCareerMapper";
 import FAQ from "./FAQ";
 class ClassTenTweleve extends React.Component {
   render() {
     return (
-      <>
+      <div class="container">
         <div id="classeightnine">
           <div className="all-title-box1">
             <div className="container text-center">
@@ -30,9 +26,7 @@ class ClassTenTweleve extends React.Component {
           </div>
         </div>
 
-
-        
-        <div id="overviews" className="section wb" style={{padding:0}}>
+        <div id="overviews" className="section wb" style={{ padding: 0 }}>
           <div className="container">
             <div className="section-title row text-center">
               <div className="col-md-8 offset-md-2">
@@ -40,9 +34,12 @@ class ClassTenTweleve extends React.Component {
               </div>
             </div>
 
-            <div id="plan" >
+            <div id="plan">
               <div className="container">
-                <div className="section-title text-center" style={{padding:0}}>
+                <div
+                  className="section-title text-center"
+                  style={{ padding: 0 }}
+                >
                   <h3>Our Programs</h3>
                 </div>
 
@@ -110,10 +107,9 @@ class ClassTenTweleve extends React.Component {
         <div className="section-title text-center">
           <h2>Frequently asked questions</h2>
         </div>
-        
 
         <FAQ></FAQ>
-      </>
+      </div>
     );
   }
 }

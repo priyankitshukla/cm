@@ -2,11 +2,6 @@ import Popup from "reactjs-popup";
 import React from "react";
 import { BrowserRouter, Link, Outlet } from "react-router-dom";
 
-import "./css/bootstrap.min.css";
-import "./css/style.css";
-import "./css/versions.css";
-import "./css/responsive.css";
-
 const Modal = () => (
   <Popup
     trigger={
@@ -73,27 +68,6 @@ class Header extends React.Component {
                       <Link to="/graduate">Graduates </Link>
                     </div>
                   </li>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="dropdown-a"
-                      data-toggle="dropdown"
-                    >
-                      TEAM{" "}
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="dropdown-a">
-                      <a className="dropdown-item" href="course-grid-2.html">
-                        Team{" "}
-                      </a>
-                      <a className="dropdown-item" href="course-grid-3.html">
-                        Apply for Job{" "}
-                      </a>
-                      <a className="dropdown-item" href="course-grid-4.html">
-                        Course Grid 4{" "}
-                      </a>
-                    </div>
-                  </li>
                   <li className="nav-item dropdown ">
                     <a
                       className="nav-link dropdown-toggle"
@@ -110,27 +84,38 @@ class Header extends React.Component {
                     >
                       <div className="col-md-12 row ">
                         <div className="col-md-2">
-                          <a className="dropdown-item" href="blog.html">
+                          <Link to="/actuarialsciences">
                             Actuarial Sciences{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
+                          </Link>
+                          <br></br>
+                          <Link to="/animationgraphics">
+                            {" "}
                             Animation & Graphics{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
+                          </Link>
+                          <br></br>
+
+                          <Link to="/appliedarts">
+                            {" "}
                             Applied Arts{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Architecture{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Aviation{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Cabin Crew{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
+                          </Link>
+                          <br></br>
+                          <Link to="/aviation">
+                            
+                            Architecture
+                          </Link>
+                          <br></br>
+                          <Link to="/cabincrew">
+                            
+                            Cabin Crew
+                          </Link>
+                          <br></br>
+                          <Link to="/civilservices">
+                            {" "}
                             Civil Services{" "}
-                          </a>
+                          </Link>
+
+                          
+                        
                           <a className="dropdown-item" href="blog-single.html">
                             Commerce & Accounts{" "}
                           </a>
@@ -153,7 +138,7 @@ class Header extends React.Component {
                           <a className="dropdown-item" href="blog-single.html">
                             Education & Training
                           </a>
-                       
+
                           <a className="dropdown-item" href="blog.html">
                             Entrepreneurship{" "}
                           </a>
@@ -161,17 +146,16 @@ class Header extends React.Component {
                           <a className="dropdown-item" href="blog-single.html">
                             Ethical Hacking
                           </a>
-                          
 
                           <a className="dropdown-item" href="blog.html">
                             Finance & Banking{" "}
                           </a>
-                          </div>
+                        </div>
                         <div className="col-md-4">
                           <a className="dropdown-item" href="blog-single.html">
                             Food & Agriculture{" "}
                           </a>
-                          
+
                           <a className="dropdown-item" href="blog.html">
                             Hotel Management{" "}
                           </a>
@@ -223,9 +207,24 @@ class Header extends React.Component {
                     </div>
                   </li>
 
-                
+                  <li className="nav-item dropdown">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#"
+                      id="dropdown-a"
+                      data-toggle="dropdown"
+                    >
+                      TEAM{" "}
+                    </a>
+                    <div className="dropdown-menu" aria-labelledby="dropdown-a">
+                      <Link to="/team  "> Team </Link>
+                      <br></br>
+                      <Link to="/applyforjob"> Apply for Job </Link>
+                    </div>
+                  </li>
+
                   <li className="nav-item">
-                    <a className="nav-link" href="contact.html">
+                    <a className="nav-link" href="/contactus">
                       Contact US
                     </a>
                   </li>
