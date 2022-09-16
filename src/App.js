@@ -9,12 +9,18 @@ import ContactUs from "./pages/ContactUs";
 import Footer from "./Footer";
 import ApplyForJob from "./pages/ApplyForJob";
 import ActuarialSciences from "./pages/ActuarialSciences";
-import AnimationGraphics from "./pages/AnimationGraphics"
+import AnimationGraphics from "./pages/AnimationGraphics";
 import AppliedArts from "./pages/AppliedArts";
 import Architecture from "./pages/Architecture";
 import Aviation from "./pages/Aviation";
-import CabinCrew from "./pages/CabinCrew"
+import CabinCrew from "./pages/CabinCrew";
 import CivilServices from "./pages/CivilServices";
+import CommerceAccounts from "./pages/CommerceAccounts";
+import ComputerApplicationIT from "./pages/ComputerApplicationIT";
+import Defense from "./pages/Defense";
+import Design from "./pages/Design";
+import DistributionLogistics from "./pages/DistributionLogistics";
+import Economics from "./pages/Economics";
 
 export default function App() {
   return (
@@ -36,10 +42,23 @@ export default function App() {
             <Route path="/aviation" element={<Aviation />} />
             <Route path="/cabincrew" element={<CabinCrew />} />
             <Route path="/civilservices" element={<CivilServices />} />
+            <Route path="/commerceaccounts" element={<CommerceAccounts />} />
+            <Route
+              path="/computerapplicationit"
+              element={<ComputerApplicationIT />}
+            />
+            <Route path="/defense" element={<Defense />} />
+            <Route path="/design" element={<Design />} />
+            <Route path="/economics" element={<Economics />} />
 
+
+            Economics
+
+            
 
 
             
+
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>

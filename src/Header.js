@@ -94,47 +94,39 @@ class Header extends React.Component {
                           </Link>
                           <br></br>
 
-                          <Link to="/appliedarts">
-                            {" "}
-                            Applied Arts{" "}
+                          <Link to="/appliedarts"> Applied Arts </Link>
+                          <br></br>
+                          <Link to="/aviation">Architecture</Link>
+                          <br></br>
+                          <Link to="/cabincrew">Cabin Crew</Link>
+                          <br></br>
+                          <Link to="/civilservices"> Civil Services </Link>
+
+                          <br></br>
+                          <Link to="/commerceaccounts">
+                            Commerce & Accounts
                           </Link>
                           <br></br>
-                          <Link to="/aviation">
-                            
-                            Architecture
+                          <Link to="/commerceaccounts">
+                            Commerce & Accounts
                           </Link>
                           <br></br>
-                          <Link to="/cabincrew">
-                            
-                            Cabin Crew
+                          <Link to="/computerapplicationit">
+                            Computer Application & IT
                           </Link>
                           <br></br>
-                          <Link to="/civilservices">
-                            {" "}
-                            Civil Services{" "}
-                          </Link>
+                          <Link to="/defense">Defense</Link>
+                          <br></br>
+                          <Link to="/design">Design</Link>
+                          <br></br>
+                          <Link to="/distributionlogistics">Distribution & Logistics</Link>
+                           <br></br>
+                          <Link to="/economics">Economics</Link>
 
                           
-                        
-                          <a className="dropdown-item" href="blog-single.html">
-                            Commerce & Accounts{" "}
-                          </a>
+                          
 
-                          <a className="dropdown-item" href="blog.html">
-                            Computer Application & IT{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Defense{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Design{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Distribution & Logistics{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Economics{" "}
-                          </a>
+                        
                           <a className="dropdown-item" href="blog-single.html">
                             Education & Training
                           </a>
