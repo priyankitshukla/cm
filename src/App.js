@@ -27,6 +27,15 @@ import EthicalHacking from "./pages/EthicalHacking";
 import FinanceBanking from "./pages/FinanceBanking";
 import FoodAgriculture from "./pages/FoodAgriculture";
 import HotelManagement from "./pages/HotelManagement";
+import Law from "./pages/Law";
+import LifeScienceEnvironment from "./pages/LifeScienceEnvironment";
+import Management from "./pages/Management";
+import MarkettingManagement from "./pages/MarkettingManagement";
+import MathsStatistics from "./pages/MathsStatistics";
+import Medicine from "./pages/Medicine";
+import MarchantNavy from "./pages/MerchantNavy";
+import NutritionFitness from "./pages/NutritionFitness"
+import PerformingArts from "./pages/PerformingArts"
 
 export default function App() {
   return (
@@ -66,6 +75,16 @@ export default function App() {
             <Route path="/financebanking" element={<FinanceBanking />} />
             <Route path="/foodagriculture" element={<FoodAgriculture />} />
             <Route path="/hotelmanagement" element={<HotelManagement/>} />
+            <Route path="/law" element={<Law/>} />
+            <Route path="/lifescienceenvironment" element={<LifeScienceEnvironment/>} />
+            <Route path="/management" element={<Management/>} />
+            <Route path="/markettingmanagement" element={<MarkettingManagement/>} />
+            <Route path="/mathstatistics" element={<MathsStatistics/>} />
+            <Route path="/medicine" element={<Medicine/>} />
+            <Route path="/marchantnavy" element={<MarchantNavy/>} />
+            <Route path="/nutritionfitness" element={<NutritionFitness/>} />
+            <Route path="/performingarts" element={<PerformingArts/>} />
+            
 
             <Route path="*" element={<Home />} />
           </Route>

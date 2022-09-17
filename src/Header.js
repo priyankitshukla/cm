@@ -134,7 +134,6 @@ class Header extends React.Component {
                           <Link to="/ethicalhacking"> Ethical Hacking</Link>
                           <br></br>
                           <Link to="/financebanking"> Finance & Banking</Link>
-
                         </div>
                         <div className="col-md-4">
                           <br></br>
@@ -142,36 +141,28 @@ class Header extends React.Component {
 
                           <br></br>
                           <Link to="/hotelmanagement"> Hotel Management</Link>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Law{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Law
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Management
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Marketing & Advertising{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Maths & Statistics
-                          </a>
+                          <br></br>
+                          <Link to="/law"> Law</Link>
 
+                          <br></br>
+                          <Link to="/management"> Management</Link>
+                          <br></br>
+                          <Link to="/markettingmanagement"> Marketting & Advertising</Link>
+                          <br></br>
+                          <Link to="/mathstatistics"> Maths & Statistics</Link>
+                          <br></br>
+                          <Link to="/medicine"> Medicine</Link>
+                          <br></br>
+                          <Link to="/marchantnavy"> Marchant Navy</Link>
+                          
+                          <br></br>
+                          <Link to="/nutritionfitness">Nutrition & Fitness</Link>
+                          <br></br>
+                          <Link to="/performingarts">Performing Arts{" "}</Link>
+                            
+                          
                           <a className="dropdown-item" href="blog.html">
-                            Media & Communication{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Medicine{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Merchant Navy{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Nutrition & Fitness{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Performing Arts{" "}
+                           
                           </a>
                           <a className="dropdown-item" href="blog-single.html">
                             Physical Science
