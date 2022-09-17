@@ -25,7 +25,7 @@ class Header extends React.Component {
         <header className="top-navbar">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-              <a className="navbar-brand" href="index.html">
+              <a className="navbar-brand" href="/">
                 <img src={require("./images/logo.png")} alt="" />
               </a>
               <button
@@ -36,6 +36,8 @@ class Header extends React.Component {
                 aria-controls="navbars-rs-food"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                data-bs-target="#navbars-host"
+                data-bs-toggle="collapse"
               >
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
