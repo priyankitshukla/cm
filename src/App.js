@@ -9,7 +9,6 @@ import ContactUs from "./pages/ContactUs";
 import Footer from "./Footer";
 import ApplyForJob from "./pages/ApplyForJob";
 import ActuarialSciences from "./pages/ActuarialSciences";
-import AnimationGraphics from "./pages/AnimationGraphics";
 import AppliedArts from "./pages/AppliedArts";
 import Architecture from "./pages/Architecture";
 import Aviation from "./pages/Aviation";
@@ -34,8 +33,11 @@ import MarkettingManagement from "./pages/MarkettingManagement";
 import MathsStatistics from "./pages/MathsStatistics";
 import Medicine from "./pages/Medicine";
 import MarchantNavy from "./pages/MerchantNavy";
-import NutritionFitness from "./pages/NutritionFitness"
-import PerformingArts from "./pages/PerformingArts"
+import NutritionFitness from "./pages/NutritionFitness";
+import PerformingArts from "./pages/PerformingArts";
+import Sales from "./pages/Sales";
+import SocialSciencesHumanities from "./pages/SocialSciencesHumanities";
+import PhysicalScience from "./pages/PhysicalScience";
 
 export default function App() {
   return (
@@ -84,6 +86,11 @@ export default function App() {
             <Route path="/marchantnavy" element={<MarchantNavy/>} />
             <Route path="/nutritionfitness" element={<NutritionFitness/>} />
             <Route path="/performingarts" element={<PerformingArts/>} />
+            <Route path="/sales" element={<Sales/>} />
+            <Route path="/socialscienceshumanities" element={<SocialSciencesHumanities/>} />
+            <Route path="/physicalscience" element={<PhysicalScience/>} />
+
+            
             
 
             <Route path="*" element={<Home />} />

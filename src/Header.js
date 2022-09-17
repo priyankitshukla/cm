@@ -1,6 +1,6 @@
 import Popup from "reactjs-popup";
 import React from "react";
-import { BrowserRouter, Link, Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Modal = () => (
   <Popup
@@ -135,7 +135,7 @@ class Header extends React.Component {
                           <br></br>
                           <Link to="/financebanking"> Finance & Banking</Link>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                           <br></br>
                           <Link to="/foodagriculture"> Food & Agriculture</Link>
 
@@ -159,23 +159,14 @@ class Header extends React.Component {
                           <Link to="/nutritionfitness">Nutrition & Fitness</Link>
                           <br></br>
                           <Link to="/performingarts">Performing Arts{" "}</Link>
-                            
-                          
-                          <a className="dropdown-item" href="blog.html">
-                           
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Physical Science
-                          </a>
-                          <a className="dropdown-item" href="blog.html">
-                            Sales{" "}
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Social Sciences & Humanities
-                          </a>
-                          <a className="dropdown-item" href="blog-single.html">
-                            Social Services
-                          </a>
+                          <br></br>
+                          <Link to="/physicalscience">Physical Science</Link>
+                          <br></br>
+                          <Link to="/sales">Sales{" "}</Link>
+                          <br></br>
+                          <Link to="/socialscienceshumanities">SocialSciencesHumanities{" "}</Link>
+                          <br></br>
+                          <Link to="/social services">Social Services{" "}</Link>
                         </div>
                       </div>
                     </div>

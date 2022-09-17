@@ -1,13 +1,13 @@
 import React from "react";
 import ResourceBottom from "./ResourceBottom";
-class PerfomingArts extends React.Component {
+class PhysicalScience extends React.Component {
   render() {
     return (
       <>
         <div className="container" style={{ backgroundColor: `white` }}>
           <div className="actuarialscience">
             <div className="container text-center">
-              <h1>Perfoming Arts</h1>
+              <h1>Physical Science</h1>
             </div>
           </div>
           <br></br>
@@ -38,11 +38,11 @@ class PerfomingArts extends React.Component {
               <li>Entrance Exams</li>
             </ul>
           </div>
-          <ResourceBottom pageName="Perfoming Arts"></ResourceBottom>
+          <ResourceBottom pageName="Physical Science"></ResourceBottom>
         </div>
       </>
     );
   }
 }
 
-export default PerfomingArts;
+export default PhysicalScience;
