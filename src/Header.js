@@ -119,43 +119,34 @@ class Header extends React.Component {
                           <br></br>
                           <Link to="/design">Design</Link>
                           <br></br>
-                          <Link to="/distributionlogistics">Distribution & Logistics</Link>
-                           <br></br>
+                          <Link to="/distributionlogistics">
+                            Distribution & Logistics
+                          </Link>
+                          <br></br>
                           <Link to="/economics">Economics</Link>
-
-                          
-                          
-
-                        
-                          <a className="dropdown-item" href="blog-single.html">
+                          <br></br>
+                          <Link to="/educationtraining">
                             Education & Training
-                          </a>
+                          </Link>
+                          <br></br>
+                          <Link to="/entrepreneurship">Entrepreneurship</Link>
+                          <br></br>
+                          <Link to="/ethicalhacking"> Ethical Hacking</Link>
+                          <br></br>
+                          <Link to="/financebanking"> Finance & Banking</Link>
 
-                          <a className="dropdown-item" href="blog.html">
-                            Entrepreneurship{" "}
-                          </a>
-
-                          <a className="dropdown-item" href="blog-single.html">
-                            Ethical Hacking
-                          </a>
-
-                          <a className="dropdown-item" href="blog.html">
-                            Finance & Banking{" "}
-                          </a>
                         </div>
                         <div className="col-md-4">
-                          <a className="dropdown-item" href="blog-single.html">
-                            Food & Agriculture{" "}
-                          </a>
+                          <br></br>
+                          <Link to="/foodagriculture"> Food & Agriculture</Link>
 
-                          <a className="dropdown-item" href="blog.html">
-                            Hotel Management{" "}
-                          </a>
+                          <br></br>
+                          <Link to="/hotelmanagement"> Hotel Management</Link>
                           <a className="dropdown-item" href="blog-single.html">
                             Law{" "}
                           </a>
                           <a className="dropdown-item" href="blog.html">
-                            Life Science & Environment{" "}
+                            Law
                           </a>
                           <a className="dropdown-item" href="blog-single.html">
                             Management

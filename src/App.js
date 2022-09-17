@@ -21,6 +21,12 @@ import Defense from "./pages/Defense";
 import Design from "./pages/Design";
 import DistributionLogistics from "./pages/DistributionLogistics";
 import Economics from "./pages/Economics";
+import EducationTraining from "./pages/EducationTraining";
+import Entrepreneurship from "./pages/Entrepreneurship";
+import EthicalHacking from "./pages/EthicalHacking";
+import FinanceBanking from "./pages/FinanceBanking";
+import FoodAgriculture from "./pages/FoodAgriculture";
+import HotelManagement from "./pages/HotelManagement";
 
 export default function App() {
   return (
@@ -49,15 +55,17 @@ export default function App() {
             />
             <Route path="/defense" element={<Defense />} />
             <Route path="/design" element={<Design />} />
+            <Route
+              path="/distributionLogistics"
+              element={<DistributionLogistics />}
+            ></Route>
             <Route path="/economics" element={<Economics />} />
-
-
-            Economics
-
-            
-
-
-            
+            <Route path="/educationtraining" element={<EducationTraining />} />
+            <Route path="/entrepreneurship" element={<Entrepreneurship />} />
+            <Route path="/ethicalhacking" element={<EthicalHacking />} />
+            <Route path="/financebanking" element={<FinanceBanking />} />
+            <Route path="/foodagriculture" element={<FoodAgriculture />} />
+            <Route path="/hotelmanagement" element={<HotelManagement/>} />
 
             <Route path="*" element={<Home />} />
           </Route>
